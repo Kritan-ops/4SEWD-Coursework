@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kritan</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Modern Login</title>
 </head>
 <body>
-    <h1>Kritan-Shrestha</h1>
+
+    <section class="login">
+
+        <div class="login_image">
+            <img
+                src="https://i.pinimg.com/736x/57/7a/12/577a1271b9daebccea99feb87f2f1ab2.jpg"
+                alt="Login Image"
+                class="login_img">
+        </div>
+
+        <div class="login_content">
+
+            <h1 class="login_title">Welcome Back 👋</h1>
+            <p class="login_subtitle">Sign in to continue your journey.</p>
+
+            <form class="login_form">
+
+                <div class="login_group">
+
+                    <div class="login_box">
+                        <i class="ri-mail-fill login_icon"></i>
+
+                        <input
+                            type="email"
+                            id="email"
+                            class="login_input"
+                            placeholder=" "
+                            required>
+
+                        <label for="email" class="login_label">
+                            Email Address
+                        </label>
+                    </div>
+
+                    <div class="login_box">
+                        <i class="ri-lock-2-fill login_icon"></i>
+
+                        <input
+                            type="password"
+                            id="password"
+                            class="login_input"
+                            placeholder=" "
+                            required>
+
+                        <label for="password" class="login_label">
+                            Password
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="login_options">
+                    <label class="remember">
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#" class="login_forgot">
+                        Forgot Password?
+                    </a>
+                </div>
+
+                <button type="submit" class="login_button">
+                    Log In
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+
+                <p class="login_sign">
+                    Don't have an account?
+                    <a href="#" class="login_signup">
+                        Sign Up
+                    </a>
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
 </body>
 </html>
